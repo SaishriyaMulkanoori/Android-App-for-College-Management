@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".AddFragment">
+
+
+    <TextView
+        android:id="@+id/requeststv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="Requests"
+        android:textColor="#FF51ACF4"
+        android:textSize="25sp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview_requestf3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="Find People"
+        android:textColor="#FF51ACF4"
+        android:textSize="20sp"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylerview_profile"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

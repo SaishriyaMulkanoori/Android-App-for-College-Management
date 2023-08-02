@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UpdateProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="#FF51ACF4"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/name_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Name"
+
+        android:minHeight="48dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/branch_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Branch"
+
+        android:minHeight="48dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/year_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Present Year"
+
+        android:minHeight="48dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/sec_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Roll No."
+
+        android:minHeight="48dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/email_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Email Id"
+
+        android:minHeight="48dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FF51ACF4"
+        android:layout_marginTop="20dp"
+        android:text="Save Profile" />
+
+</LinearLayout>
